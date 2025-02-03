@@ -1,53 +1,43 @@
-Giphy Search Engine
+# Giphy Search Engine
 
-Overview
+# Overview
 
 The Giphy Search Engine is a simple web application that allows users to search for GIFs using the Giphy API. Users can enter a keyword, submit their search, and receive a grid of related GIFs in response. The site is designed to be fully responsive and features a collapsible navigation menu.
 
-Features
+## Features
 
-Search for GIFs using the Giphy API.
+1. Search for GIFs using the Giphy API.
 
-Responsive Grid Layout: Displays GIFs dynamically.
+2. Responsive Grid Layout: Displays GIFs dynamically.
 
-Collapsible Navigation: Optimized for small screens.
+3. Collapsible Navigation: Optimized for small screens.
 
-Mobile-Friendly: Works across different devices.
+4. Mobile-Friendly: Works across different devices.
 
-Technologies Used
+## Technologies Used
 
-HTML: Structuring the page.
+- **HTML:** Structuring the page.
 
-CSS: Styling and responsiveness.
+- **CSS:** Styling and responsiveness.
 
-JavaScript: Handling API requests and interactivity.
+- **JavaScript:** Handling API requests and interactivity.
 
-Google Fonts: Custom typography.
+## Installation
 
-Setup Instructions
-
-Clone this repository to your local machine:
+1. Clone this repository to your local machine:
 
 git clone https://github.com/your-username/Giphy-Search-Engine.git
 
-Open the project: Navigate to the project directory.
+2. Update API Key: Replace YOUR_GIPHY_API_KEY in the JavaScript code with a valid Giphy API key.
 
-cd Giphy-Search-Engine
+## Potential Future Improvements
 
-Open index.html in a web browser.
+1. Infinite Scrolling: Load more GIFs dynamically.
 
-Update API Key: Replace YOUR_GIPHY_API_KEY in the JavaScript code with a valid Giphy API key.
+2. Favorites Feature: Save and revisit favorite GIFs.
 
-Start searching for GIFs!
+3. Theme Customization: Support for dark mode and custom themes.
 
-Potential Future Improvements
-
-Infinite Scrolling: Load more GIFs dynamically.
-
-Favorites Feature: Save and revisit favorite GIFs.
-
-Theme Customization: Support for dark mode and custom themes.
-
-License
+## License
 
 This project is open-source and free to use under the MIT License.
