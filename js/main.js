@@ -15,8 +15,12 @@ document.getElementById('search-form').addEventListener('submit', async function
         const data = await response.json();
         
         const gifContainer = document.getElementById('gif-container');
+        const resultCount = document.getElementById('result-count');
         gifContainer.innerHTML = '';
-        
+
+        // Update the result count text
+        resultCount.textContent = `Showing ${data.data.length} results for "${query}"`;
+
         data.data.forEach(gif => {
             const img = document.createElement('img');
             img.src = gif.images.fixed_height.url;
