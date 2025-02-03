@@ -9,7 +9,7 @@ The Giphy Search Engine is a simple web application that allows users to search 
 
 # Preview
 
-!(images/Giphy search enginge preview.png)
+!(images/Giphy search engine preview.png)
 
 ## Features
 
