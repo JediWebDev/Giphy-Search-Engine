@@ -1,9 +1,13 @@
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('active');
+});
+
 document.getElementById('search-form').addEventListener('submit', async function(event) {
     event.preventDefault();
     const query = document.getElementById('search-input').value.trim();
     if (!query) return;
     
-    const apiKey = 'ourPIa5AFPGP92S60emt4uzg5TxgQHaS';
+    const apiKey = 'YOUR_GIPHY_API_KEY';
     const url = `https://api.giphy.com/v1/gifs/search?q=${query}&limit=12&api_key=${apiKey}`;
     
     try {
