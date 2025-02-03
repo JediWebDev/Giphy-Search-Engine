@@ -1,8 +1,15 @@
 # Giphy Search Engine
 
+# Author
+Andrew Soria
+
 # Overview
 
 The Giphy Search Engine is a simple web application that allows users to search for GIFs using the Giphy API. Users can enter a keyword, submit their search, and receive a grid of related GIFs in response. The site is designed to be fully responsive and features a collapsible navigation menu.
+
+# Preview
+
+!(images/Giphy search enginge preview.png)
 
 ## Features
 
