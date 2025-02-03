@@ -8,7 +8,7 @@ document.getElementById('search-form').addEventListener('submit', async function
     if (!query) return;
     
     const apiKey = 'ourPIa5AFPGP92S60emt4uzg5TxgQHaS';
-    const url = `https://api.giphy.com/v1/gifs/search?q=${query}&limit=12&api_key=${apiKey}`;
+    const url = `https://api.giphy.com/v1/gifs/search?q=${query}&limit=30&api_key=${apiKey}`;
     
     try {
         const response = await fetch(url);
